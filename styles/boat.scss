@@ -1,0 +1,216 @@
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.words-container {
+  text-align: center;
+  gap: 5px;
+  color: black;
+  background-image: linear-gradient(to right, #ad1f82, #e43670);
+  width: 100%;
+  height: 70%;
+
+  .nav-bar-container {
+    display: grid;
+    grid-template-columns: 75% 1fr 1fr 1fr 1fr;
+    color: black;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 12px;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: white;
+
+    a:hover {
+      color: #e91e63;
+    }
+
+    .nav1 {
+      margin-left: 200px;
+
+      a {
+        text-decoration: none;
+        color: #e91e63;
+      }
+    }
+
+    .nav5 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: static;
+      border: 1px solid #e43670;
+      color: white;
+      border-radius: 50px;
+      background-color: #e43670;
+      margin: 0;
+      padding: 0 10px;
+      width: 50%;
+      height: 200%;
+      text-align: center;
+
+      button {
+        background-color: #e91e63;
+        border: none;
+        color: white;
+        width: 50%;
+      }
+
+      button:hover {
+        box-shadow: 0px 19px 15px -5px #e91e63;
+      }
+    }
+  }
+
+  .blog {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    font-size: 14px;
+    margin: 0px 0px 5px;
+    // text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-weight: lighter;
+  }
+}
+
+.boat-main-body {
+  background-color: #e5e5e5;
+
+  .boats-page {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -150px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: auto;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    align-content: center;
+
+    .boat-image {
+      padding-right: 500px;
+      p {
+        text-align: center;
+      }
+    }
+
+    .info {
+      button {
+        background-color: #e91e63;
+        border: none;
+        color: white;
+        width: 150px;
+        border-radius: 50px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .tags {
+          text-align: left;
+        }
+
+        .icons {
+          i {
+            color: white;
+            padding: 12px;
+            border-radius: 30px;
+            font-size: 20px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.related-posts {
+  padding: 70px 0;
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .posts {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+
+    .elements {
+      box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+      border: 1pt solid white;
+      background-color: white;
+      width: 350px;
+      height: 100%;
+      padding: 15px 30px;
+      margin: 0 25px;
+      border-radius: 5px;
+    }
+
+    .more-tags {
+      box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+      border: 1pt solid white;
+      background-color: white;
+      width: 350px;
+      height: 100%;
+      padding: 15px 30px;
+      margin: 0 25px;
+      border-radius: 5px;
+    }
+
+    .html {
+      box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+      border: 1pt solid white;
+      background-color: white;
+      width: 350px;
+      height: 100%;
+      padding: 15px 30px;
+      margin: 0 25px;
+      border-radius: 5px;
+    }
+  }
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  background-color: #323437;
+  color: white;
+
+  .left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .right {
+    text-align: center;
+  }
+}

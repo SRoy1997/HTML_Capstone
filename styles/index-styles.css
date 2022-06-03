@@ -1,0 +1,248 @@
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero-container {
+  text-align: center;
+  color: white;
+  gap: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/mountain.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/mountain.jpeg);
+  background-size: cover;
+  background-position: 25% 60%;
+  width: 100%;
+  height: 80%;
+}
+
+.hero-container .nav-bar-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 1fr 1fr 1fr 1fr;
+      grid-template-columns: 75% 1fr 1fr 1fr 1fr;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-container .nav-bar-container a:hover {
+  color: #e91e63;
+}
+
+.hero-container .nav-bar-container .nav1 {
+  margin-left: 200px;
+}
+
+.hero-container .nav-bar-container .nav1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-container .nav-bar-container .nav5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: static;
+  border: 1px solid #e91e63;
+  border-radius: 50px;
+  background-color: #e91e63;
+  margin: 0;
+  padding: 0 10px;
+  width: 50%;
+  height: 200%;
+}
+
+.hero-container .nav-bar-container .nav5 button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+}
+
+.hero-container .nav-bar-container .nav5 button:hover {
+  -webkit-box-shadow: 0px 19px 15px -5px #e91e63;
+          box-shadow: 0px 19px 15px -5px #e91e63;
+}
+
+.hero-container .welcome {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.hero-container .welcome h1 {
+  font-size: 70px;
+  margin: 0px 0px 5px;
+}
+
+.hero-container .welcome p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.hero-container .welcome button {
+  border-radius: 5px;
+  border: none;
+  background-color: #e91e63;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 10px;
+  color: white;
+}
+
+.main-body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.5fr 1fr 1fr 0.5fr 1fr;
+      grid-template-rows: 0.5fr 1fr 1fr 0.5fr 1fr;
+  margin-top: -100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0;
+  height: 200%;
+  border: none;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.main-body p {
+  margin-bottom: 0;
+}
+
+.main-body .stand-for {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
+  margin: 0;
+}
+
+.main-body .about-hestia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/city.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/city.jpeg);
+  background-size: cover;
+  background-position: 25% 60%;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: left;
+  background-attachment: fixed;
+}
+
+.main-body .about-hestia img {
+  height: 100%;
+  width: 100%;
+  justify-self: flex-end;
+  padding-left: 200px;
+}
+
+.main-body .about-hestia p {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.main-body .blog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  font-size: 14px;
+  text-align: left;
+  justify-items: center;
+}
+
+.main-body .get-in-touch {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/city.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/city.jpeg);
+  background-size: cover;
+  background-position: 25% 60%;
+  width: 100%;
+  height: calc(100% - 75px);
+  color: white;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+}
+
+.main-body .get-in-touch p {
+  color: white;
+  font-size: 14px;
+  padding-left: 150px;
+  height: 50%;
+}
+
+.main-body .footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  background-color: #323437;
+  color: white;
+  margin: 0;
+  height: 150%;
+  width: 100%;
+}
+
+.main-body .footer .left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+/*# sourceMappingURL=index-styles.css.map */

@@ -1,0 +1,194 @@
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-container {
+  text-align: center;
+  gap: 5px;
+  color: black;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ad1f82), to(#e43670));
+  background-image: linear-gradient(to right, #ad1f82, #e43670);
+  width: 100%;
+  height: 50%;
+}
+
+.blog-container .nav-bar-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 1fr 1fr 1fr 1fr;
+      grid-template-columns: 75% 1fr 1fr 1fr 1fr;
+  color: black;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: white;
+}
+
+.blog-container .nav-bar-container a:hover {
+  color: #e91e63;
+}
+
+.blog-container .nav-bar-container .nav1 {
+  margin-left: 200px;
+}
+
+.blog-container .nav-bar-container .nav1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.blog-container .nav-bar-container .nav5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: static;
+  border: 1px solid #e43670;
+  color: white;
+  border-radius: 50px;
+  background-color: #e43670;
+  margin: 0;
+  padding: 0 10px;
+  width: 50%;
+  height: 200%;
+  text-align: center;
+}
+
+.blog-container .nav-bar-container .nav5 button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  width: 50%;
+}
+
+.blog-container .nav-bar-container .nav5 button:hover {
+  -webkit-box-shadow: 0px 19px 15px -5px #e91e63;
+          box-shadow: 0px 19px 15px -5px #e91e63;
+}
+
+.blog-container .blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  margin: 0px 0px 5px;
+  color: white;
+  padding-top: 100px;
+}
+
+.blogs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr;
+      grid-template-rows: 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr;
+  margin-top: -100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 150%;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.blogs a:hover {
+  color: gray;
+}
+
+.blogs .thousand-words {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blogs .elements {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blogs .more-tags {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blogs .html {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blogs .links {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blogs .category-hierarchy {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.blogs .hello-world {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  background-color: #323437;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -5px;
+}
+
+.footer .left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.footer .right {
+  text-align: center;
+}
+/*# sourceMappingURL=blog-styles.css.map */

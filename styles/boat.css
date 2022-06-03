@@ -1,0 +1,250 @@
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.words-container {
+  text-align: center;
+  gap: 5px;
+  color: black;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ad1f82), to(#e43670));
+  background-image: linear-gradient(to right, #ad1f82, #e43670);
+  width: 100%;
+  height: 70%;
+}
+
+.words-container .nav-bar-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 75% 1fr 1fr 1fr 1fr;
+      grid-template-columns: 75% 1fr 1fr 1fr 1fr;
+  color: black;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background-color: white;
+}
+
+.words-container .nav-bar-container a:hover {
+  color: #e91e63;
+}
+
+.words-container .nav-bar-container .nav1 {
+  margin-left: 200px;
+}
+
+.words-container .nav-bar-container .nav1 a {
+  text-decoration: none;
+  color: #e91e63;
+}
+
+.words-container .nav-bar-container .nav5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: static;
+  border: 1px solid #e43670;
+  color: white;
+  border-radius: 50px;
+  background-color: #e43670;
+  margin: 0;
+  padding: 0 10px;
+  width: 50%;
+  height: 200%;
+  text-align: center;
+}
+
+.words-container .nav-bar-container .nav5 button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  width: 50%;
+}
+
+.words-container .nav-bar-container .nav5 button:hover {
+  -webkit-box-shadow: 0px 19px 15px -5px #e91e63;
+          box-shadow: 0px 19px 15px -5px #e91e63;
+}
+
+.words-container .blog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2fr 1fr;
+      grid-template-rows: 2fr 1fr;
+  font-size: 14px;
+  margin: 0px 0px 5px;
+  color: white;
+  padding-top: 100px;
+  font-weight: lighter;
+}
+
+.boat-main-body {
+  background-color: #e5e5e5;
+}
+
+.boat-main-body .boats-page {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  margin-top: -150px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.boat-main-body .boats-page .boat-image {
+  padding-right: 500px;
+}
+
+.boat-main-body .boats-page .boat-image p {
+  text-align: center;
+}
+
+.boat-main-body .boats-page .info button {
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  width: 150px;
+  border-radius: 50px;
+}
+
+.boat-main-body .boats-page .info .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.boat-main-body .boats-page .info .row .tags {
+  text-align: left;
+}
+
+.boat-main-body .boats-page .info .row .icons i {
+  color: white;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.related-posts {
+  padding: 70px 0;
+}
+
+.related-posts h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.related-posts .posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.related-posts .posts .elements {
+  -webkit-box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+  border: 1pt solid white;
+  background-color: white;
+  width: 350px;
+  height: 100%;
+  padding: 15px 30px;
+  margin: 0 25px;
+  border-radius: 5px;
+}
+
+.related-posts .posts .more-tags {
+  -webkit-box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+  border: 1pt solid white;
+  background-color: white;
+  width: 350px;
+  height: 100%;
+  padding: 15px 30px;
+  margin: 0 25px;
+  border-radius: 5px;
+}
+
+.related-posts .posts .html {
+  -webkit-box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.25);
+  border: 1pt solid white;
+  background-color: white;
+  width: 350px;
+  height: 100%;
+  padding: 15px 30px;
+  margin: 0 25px;
+  border-radius: 5px;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  background-color: #323437;
+  color: white;
+}
+
+.footer .left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  margin: 0;
+}
+
+.footer .right {
+  text-align: center;
+}
+/*# sourceMappingURL=boat.css.map */
