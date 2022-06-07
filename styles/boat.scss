@@ -1,3 +1,10 @@
+@mixin button($radius) {
+  background-color: #e91e63;
+  color: white;
+  border-radius: $radius;
+  border: none;
+}
+
 body,
 html {
   margin: 0;
@@ -60,10 +67,7 @@ a {
       text-align: center;
 
       button {
-        background-color: #e91e63;
-        border: none;
-        color: white;
-        width: 50%;
+        @include button(50px);
       }
 
       button:hover {
@@ -113,11 +117,8 @@ a {
 
     .info {
       button {
-        background-color: #e91e63;
-        border: none;
-        color: white;
         width: 150px;
-        border-radius: 50px;
+        @include button(50px);
       }
 
       .row {

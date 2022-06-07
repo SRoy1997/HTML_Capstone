@@ -72,8 +72,9 @@ a {
 
 .hero-container .nav-bar-container .nav5 button {
   background-color: #e91e63;
-  border: none;
   color: white;
+  border-radius: 50px;
+  border: none;
 }
 
 .hero-container .nav-bar-container .nav5 button:hover {
@@ -101,16 +102,16 @@ a {
 }
 
 .hero-container .welcome button {
+  background-color: #e91e63;
+  color: white;
   border-radius: 5px;
   border: none;
-  background-color: #e91e63;
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 10px;
-  color: white;
 }
 
 .main-body {
@@ -143,12 +144,22 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   text-align: center;
   font-size: 14px;
   color: #999999;
   margin: 0;
+}
+
+.main-body .stand-for .responsive {
+  width: 50%;
+}
+
+.main-body .stand-for .quality {
+  width: 50%;
+}
+
+.main-body .stand-for .support {
+  width: 50%;
 }
 
 .main-body .about-hestia {
@@ -233,6 +244,7 @@ a {
   margin: 0;
   height: 150%;
   width: 100%;
+  justify-items: center;
 }
 
 .main-body .footer .left {

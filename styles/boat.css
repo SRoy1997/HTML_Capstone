@@ -75,9 +75,9 @@ a {
 
 .words-container .nav-bar-container .nav5 button {
   background-color: #e91e63;
-  border: none;
   color: white;
-  width: 50%;
+  border-radius: 50px;
+  border: none;
 }
 
 .words-container .nav-bar-container .nav5 button:hover {
@@ -134,11 +134,11 @@ a {
 }
 
 .boat-main-body .boats-page .info button {
-  background-color: #e91e63;
-  border: none;
-  color: white;
   width: 150px;
+  background-color: #e91e63;
+  color: white;
   border-radius: 50px;
+  border: none;
 }
 
 .boat-main-body .boats-page .info .row {
